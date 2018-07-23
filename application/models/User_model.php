@@ -54,7 +54,7 @@ class User_model extends CI_Model {
 		trigger_error($e->getMessage(), E_USER_ERROR);
 		return;
 	}
-
+	}
 	
 	/**
 	 * resolve_user_login function.
